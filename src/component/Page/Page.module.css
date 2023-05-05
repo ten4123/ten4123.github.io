@@ -1,0 +1,68 @@
+*{
+    font-family: 'Spoqa Han Sans Neo';
+    box-sizing: border-box;
+}
+
+
+.Page_Wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Page_Container{
+    width: 100%;
+    max-width: 1040px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+/* .Page_Container > *:not(:last-child) {
+    margin-bottom: 16px;
+} */
+
+.Post_Container{
+    /* padding: 16px 20px; */
+    width: 100%;
+
+}
+
+.Title_Text{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 16px 20px;
+    color: #1c1c1c;
+    border-bottom: 1px solid #4D5256;
+    width: 100%;
+}
+
+.Title_time{
+    font-size: 12px;
+    font-weight: 400;
+    color: #4D5256;
+    margin-top: 6px;
+}
+
+.Content_Text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #4D5256;
+    white-space: pre-wrap;
+    padding: 24px;
+    margin: 48px 0;
+}
+
+.Comment_Label{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 24px 0;
+    max-width: 1040px;
+    width: 100%;
+    color: #4D5256;
+}
+

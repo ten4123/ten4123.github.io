@@ -1,0 +1,20 @@
+.scroll__container{
+  position: fixed;
+  right: 48px;
+  bottom: 5%;
+  z-index: 1;
+}
+#top{
+  font-weight: bold;
+  font-size: 16px;
+  padding :16px 12px;
+  background-color: #1c1c1c;
+  color:#c4c4c4;
+  border: 1px solid #ebebeb ;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+#top:hover{
+  color :#ffffff;
+}

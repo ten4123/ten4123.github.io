@@ -1,0 +1,26 @@
+.Button {
+  box-sizing: border-box;
+  font-family: 'Spoqa Han Sans Neo';
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+background: #1C1C1C;
+border: 1px solid #1C1C1C;
+border-radius: 30px;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.Button-disabled {
+  background-color: gray;
+  color: white;
+  border: 1px solid gray;
+  cursor: not-allowed;
+}

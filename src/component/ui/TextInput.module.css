@@ -1,0 +1,12 @@
+.TextInput{
+  font-family: 'Spoqa Han Sans Neo';
+  height: var(--height);
+  font-size: 14px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1040px;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  
+}
